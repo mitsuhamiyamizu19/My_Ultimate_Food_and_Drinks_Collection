@@ -105,10 +105,10 @@ Seeders automatically generate 30 food and drink records for testing and demonst
 
 ## Live Website
 
-Ngrok URL:
+Render URL:
 
 ```text
-https://backrest-caviar-worry.ngrok-free.dev
+https://my-ultimate-food-and-drinks-collection.onrender.com/
 ```
 
 ---
