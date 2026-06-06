@@ -1,3 +1,127 @@
+# My Ultimate Food and Drinks Collection
+
+## Project Description
+
+The system is a Food and Drink Collection Application developed using Laravel Framework and SQLite Database.
+
+The system allows users to manage their favorite foods and drinks through Create, Read, Update, and Delete (CRUD) operations. It also displays useful recommendations and statistics such as the Most Expensive item, Cheapest item, Highest Calories item, Most Recommended item, and Top 10 Highest Rated favorites.
+
+---
+
+## Features
+
+* Add Favorite Food or Drink
+* View Favorite Items
+* Edit Favorite Items
+* Delete Favorite Items
+* Most Expensive Recommendation
+* Cheapest Recommendation
+* Highest Calories Recommendation
+* Most Recommended Item
+* Top 10 Highest Rated Favorites
+* Factory and Seeder Support
+* SQLite Database Integration
+
+---
+
+## Technologies Used
+
+* Laravel 13
+* PHP 8.4
+* SQLite Database
+* Bootstrap 5
+* GitHub
+* Ngrok
+
+---
+
+## Installation Guide
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/mitsuhamiyamizu19/My_Ultimate_Food_and_Drinks_Collection.git
+```
+
+### 2. Open the Project Folder
+
+```bash
+cd My_Ultimate_Food_and_Drinks_Collection
+```
+
+### 3. Install Dependencies
+
+```bash
+composer install
+```
+
+### 4. Create Environment File
+
+```bash
+copy .env.example .env
+```
+
+### 5. Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+### 6. Create SQLite Database
+
+Create a file named:
+
+```text
+database/database.sqlite
+```
+
+### 7. Run Migrations and Seeders
+
+```bash
+php artisan migrate:fresh --seed
+```
+
+### 8. Start the Application
+
+```bash
+php artisan serve
+```
+
+### 9. Open the Application
+
+```text
+http://127.0.0.1:8000
+```
+
+---
+
+## Database Information
+
+The system uses SQLite as its database.
+
+Seeders automatically generate 30 food and drink records for testing and demonstration purposes.
+
+---
+
+## Live Website
+
+Ngrok URL:
+
+```text
+https://backrest-caviar-worry.ngrok-free.dev
+```
+
+---
+
+## Author
+
+BHING MARRIE CLAIRE S. UNTAL
+
+SECTION: C
+
+Course: Bachelor of Science in Information Technology 
+
+Project Title: My Ultimate Food and Drinks Collection
 
 
 
